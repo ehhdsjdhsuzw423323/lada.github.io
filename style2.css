@@ -1,0 +1,446 @@
+@font-face {
+    font-family: Mbold;
+    src: url(fonts/Mbold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Mregular;
+    src: url(fonts/Mregular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Mlight;
+    src: url(fonts/Mlight.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Tbolditalic;
+    src: url(fonts/Tbolditalic.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Tregular;
+    src: url(fonts/Tregular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Titalic;
+    src: url(fonts/Titalic.ttf);
+    font-display: swap;
+}
+
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+
+    100% {
+        
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-display: swap;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Mregular';
+    background: #8A5175;
+    color: white;
+}
+
+.section-1{
+    width: 100%;
+    background-image: url(images/bal.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section-1 .top1 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+    animation: transitionIn 3s;
+}
+
+.section-1 .top1 p{
+    font-size: 1.5rem;
+    font-family: 'Mlight';
+    animation: transitionIn 3s;
+}
+
+.section-1 .top1{
+    padding-top: 15rem;
+}
+
+.section-1 .bottom1{
+    padding-top: 10rem;
+}
+
+.section-1 .bottom1 h1{
+    font-size: 4rem;
+    font-family: 'Tbolditalic';
+    animation: transitionIn 1s;
+}
+
+.section-1 .bottom1 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    animation: transitionIn 1s;
+}
+
+.section-2{
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-2 .top2 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-2 .top2 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+}
+
+.section-2 .bottom2 h1{
+    font-size: 6rem;
+    font-family: 'Tbolditalic';
+}
+
+.section-2 .bottom2 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-2 .bottom2{
+    margin-top: 5rem;
+}
+
+.section-3{
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-3 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-3 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-3 h2{
+    font-family: 'Titalic';
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.section-4{
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-4 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-4 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-4 h2{
+    font-family: 'Titalic';
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.section-5 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-5 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-5 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-5 h2{
+    font-weight: normal;
+    font-family: 'Titalic';
+    font-size: 3.5rem;
+}
+
+.section-5 .text5{
+    margin: 0 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: dashed .3rem white;
+    border-radius: 3rem;
+}
+
+.section-6 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-6 .uppertext6 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-6 .uppertext6 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-6 .top6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-6 .top6 .box1{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    background-image: url(images/eyes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 2.5rem;
+    border-radius: 2rem;
+    border: solid .2rem #3f3f3f;
+}
+
+.section-6 .top6 .box1 h1{
+    font-size: 3.5rem;
+    font-family: 'Titalic';
+    font-weight: normal;
+}
+
+.section-6 .top6 .box2{
+    margin-left: 1rem;
+    margin-right: 2rem;
+    background-image: url(images/hairs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem 2.5rem;
+    border-radius: 2rem;
+    border: solid .2rem #3f3f3f;
+}
+
+.section-6 .top6 .box2 h1{
+    font-size: 3.5rem;
+    font-family: 'Titalic';
+    font-weight: normal;
+}
+
+.section-6 .bottom6 .box3 h1{
+    font-size: 3.5rem;
+    font-family: 'Titalic';
+    font-weight: normal;
+}
+
+.section-6 .bottom6 .box3{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: rgba(0, 0, 0, 0.527);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem ;
+    border-radius: 4rem;
+    border: solid .2rem #3f3f3f;
+    transition: all .3s;
+}
+
+.section-6 .bottom6 .box3:hover{
+    background-color: rgba(0, 0, 0, 0.800);
+}
+
+
+.section-7{
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-7 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-7 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-7 h2{
+    font-family: 'Titalic';
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.section-8{
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-8 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-8 p{
+    font-size: 1.8rem;
+    font-family: 'Tregular';
+    padding-bottom: 3rem;
+}
+
+.section-8 h2{
+    font-family: 'Titalic';
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.section-9{
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.section-9 h1{
+    font-size: 3.3rem;
+    font-family: 'Mbold';
+}
+
+.section-9 a{
+    margin: 0 10rem;
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 1.3rem;
+    border: white solid;
+    color: white;
+    font-size: 1.7rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: 'Mregular';
+    margin-bottom: 5rem;
+    transition: all .4s;
+}
+
+.section-9 a:hover{
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+.footer {
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Mregular';
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.footer .active{
+    color: rgb(255, 255, 255);
+    font-family: 'Mbold';
+}

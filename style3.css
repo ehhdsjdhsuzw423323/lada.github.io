@@ -1,0 +1,398 @@
+@font-face {
+    font-family: Mbold;
+    src: url(fonts/Mbold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Mregular;
+    src: url(fonts/Mregular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Mlight;
+    src: url(fonts/Mlight.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Slightitalic;
+    src: url(fonts/Slightitalic.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Slight;
+    src: url(fonts/Slight.ttf);
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: Sbold;
+    src: url(fonts/Sbold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Tbolditalic;
+    src: url(fonts/Tbolditalic.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Titalic;
+    src: url(fonts/Titalic.ttf);
+    font-display: swap;
+}
+
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+
+    100% {
+        
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-display: swap;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Mregular';
+    background: black;
+    color: white;
+}
+
+.section-1{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(87,33,65,1) 0%, rgba(0,0,0,1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section-1 .top1 h1{
+    font-family: 'Tbolditalic';
+    font-size: 4.3rem;
+    padding-top: 3rem;
+    animation: transitionIn 1s;
+}
+
+.section-1 .top1 p{
+    font-family: 'Titalic';
+    font-size: 2rem;
+    animation: transitionIn 1s;
+}
+
+.section-1 .bottom1 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    padding-top: 15rem;
+    animation: transitionIn 3s;
+}
+
+.section-1 .bottom1 h2{
+    font-family: 'Mbold';
+    font-size: 3.3rem;
+    padding-bottom: 1rem;
+    animation: transitionIn 2s;
+}
+
+.section-1 .bottom1 p{
+    font-size: 1.5rem;
+    color: rgb(190, 190, 190);
+    animation: transitionIn 1.5s;
+}
+
+.section-2 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-2 .top2 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    font-weight: normal;
+    padding-left: 3rem;
+}
+
+.section-2 .top2 p{
+    font-family: 'Mregular';
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-2 .bottom2 h2{
+    padding-left: 3rem;
+    font-size: 2.8rem;
+    font-weight: normal;
+    font-family: 'Sbold';
+}
+
+.boldtime {
+    font-family: 'Slight';
+}
+
+.section-3 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-3 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    font-weight: normal;
+    padding-left: 3rem;
+}
+
+.section-3 p{
+    font-family: 'Mregular';
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-3 h2{
+    font-weight: normal;
+    font-family: 'Slightitalic';
+    padding-left: 3rem;
+    font-size: 2.8rem;
+}
+
+.section-4 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-4 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    font-weight: normal;
+    padding-left: 3rem;
+}
+
+.section-4 p{
+    font-family: 'Mregular';
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+.section-4 .text4{
+    padding-left: 3rem;
+}
+
+#text{
+    font-weight: normal;
+    font-family: 'Slightitalic';
+    font-size: 2.8rem;
+    margin-right: 5rem;
+    font-style: italic;
+}
+
+.section-4 .text4 button{
+    border: solid .2rem rgb(190, 190, 190);
+    color: white;
+    background-color: black;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Mregular';
+}
+
+.section-5 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-5 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    font-weight: normal;
+    padding-left: 3rem;
+}
+
+.section-5 p{
+    font-family: 'Mregular';
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+#content {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 3rem;
+  }
+  .item {
+    min-width: 180px;
+    height: 100px;
+    background-color: transparent;
+    border: solid .2rem rgb(190, 190, 190);
+    margin-right: 20px;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    font-weight: normal;
+    font-family: 'Slight';
+    transition: all .3s;
+  }
+
+  .item:hover{
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+
+  .section-6 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-6 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    font-weight: normal;
+    padding-left: 3rem;
+}
+
+.section-6 p{
+    font-family: 'Mregular';
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-6 h2{
+    font-weight: normal;
+    font-family: 'Slightitalic';
+    padding-left: 3rem;
+    font-size: 2.8rem;
+}
+
+.section-7 {
+    width: 100%;
+    padding-bottom: 12rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section-7 h1{
+    font-family: 'Mregular';
+    font-size: 3.3rem;
+    font-weight: normal;
+    padding-left: 3rem;
+}
+
+.section-7 p{
+    font-family: 'Mregular';
+    color: rgb(190, 190, 190);
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-7 a{
+    margin-left: 3rem;
+    margin-right: 23rem;
+    justify-content: center;
+    display: flex;
+    padding: 1.5rem;
+    border: solid .2rem rgb(190, 190, 190);
+    color: white;
+    font-size: 1.7rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: 'Slight';
+    margin-bottom: 5rem;
+    transition: all .4s;
+}
+
+.section-7 a:hover{
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+.footer {
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Mregular';
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.footer .active{
+    color: rgb(255, 255, 255);
+    font-family: 'Mbold';
+}
+
+@media (min-width: 800px) {    
+    .section-4 .text4 button{
+        display: none;
+    }
+}
